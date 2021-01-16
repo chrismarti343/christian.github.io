@@ -1,5 +1,5 @@
 body {
-    background: url(black.jpeg);
+    background-color: white;
     background-position: center; /* Center the image */
     background-repeat: repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -98,7 +98,7 @@ hr{
 
 
 .column:hover{
-    box-shadow: 0px 0px 25px white;
+    box-shadow: 0px 0px 25px black;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.025);
