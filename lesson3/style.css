@@ -228,7 +228,12 @@ hr{
       main {
         display: grid;
         grid-template-columns: auto auto auto ;
-        background:#20639B ;
+        background:white;
+        width: 90%;
+        height: 100%;
+        padding: 0;
+        padding-top: 2%;
+        margin: 5%;
     
       }
 
