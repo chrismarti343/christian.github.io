@@ -23,13 +23,12 @@ body {
   .menu {
     display: inline-block;
     position: relative;
-    padding-left: 6%;
     padding-top: 5%;
-    width: 95%
+    width: 100%
     
   }
   .btn{
-      left: 5%;
+      padding-left: 45%;
   }
 
   .menu_icon{
@@ -163,5 +162,77 @@ hr{
     -webkit-box-shadow: inset 0 0 10px blue;
     box-shadow:         inset 0 0 10px blue;
   
+}
+
+@media only screen and (min-width: 37.5em){
+
+    nav a{
+        display: grid;
+        grid-template-columns: auto auto  ;
+        position: relative;
+     
+      }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: auto auto  ;
+        position: relative;
+
+    }
+    .btn{
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (min-width: 60em){
+
+    nav a{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        position: relative;
+        padding-top: 5%;
+        text-align: center;
+     
+      }
+
+      nav ul {
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        position: relative;
+
+    }
+    a.icon{
+       background-color: #293573;
+       text-align: center;
+    }
+
+    .btn{
+        visibility: hidden;
+    }
+
+    .menu {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        
+      }
+
+      nav li {
+        border-radius: 0px;
+    
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        background:#20639B ;
+    
+      }
+
+
+
 }
 
