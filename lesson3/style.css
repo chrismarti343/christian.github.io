@@ -66,9 +66,10 @@ body {
 
   }
 
-  nav a:active{
-    background-color: #000000;
-  }
+  .navbar-nav > .active > a { 
+    background-color:  #000000 ; 
+}
+
 
   a.icon{
       color: #293573;
