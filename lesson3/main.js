@@ -6,4 +6,12 @@ document.querySelector('#year').textContent = currentDate.getFullYear();
 
 var x = new Date(document.lastModified);
 
-document.getElementById("update").innerHTML = x;    
+
+function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }

@@ -20,14 +20,30 @@ body {
 
   }
 
+  .menu {
+    display: inline-block;
+    position: relative;
+    padding-left: 6%;
+    padding-top: 5%;
+    width: 95%
+    
+  }
+  .btn{
+      left: 5%;
+  }
+
+  .menu_icon{
+    left: 65%;
+  }
+
+  
+    
+
   nav {
-    width: 100%;
     display: grid;
     grid-template-columns: auto ;
-    margin-top: 10px;
-    padding: 5%;
-  
-
+    position: relative;
+ 
   }
 
   nav li {
@@ -51,9 +67,11 @@ body {
 
   }
 
+  a.icon{
+      color: #293573;
+  }
+
   nav a{
-    margin: 10px;
-    padding: 10px;
     font-size: 25px;;
     text-decoration: none; /* no underline */
   }
@@ -64,13 +82,8 @@ body {
       color:  #3f51b5;
   }
 
-  main {
-    display: grid;
-    grid-template-columns: auto ;
-    margin: 3%;
-    padding: 0;
 
-}
+
 
 main {
     display: grid;
