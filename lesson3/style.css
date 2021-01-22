@@ -87,7 +87,6 @@ body {
 main {
     display: grid;
     grid-template-columns: auto ;
-    margin: 3%;
     padding: 0;
     background:#20639B ;
 
