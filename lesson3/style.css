@@ -66,9 +66,10 @@ body {
 
   }
 
-  .navbar-nav > .active > a { 
-    background-color:  #000000 ; 
-}
+  .navbar-nav > .active > a {
+    color: aqua;
+    background-color: chartreuse;    
+  }
 
 
   a.icon{
