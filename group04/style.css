@@ -1,0 +1,193 @@
+body {
+    background-color: #cecece;
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    background-size: cover; 
+    font-family: 'Open Sans', sans-serif;
+    /* Resize the background image to cover the entire container */
+  }
+
+  .container{
+      margin: 10%;
+      width:80%;
+      height: 75%;
+      border: 1px solid black;
+      border-radius: 15px;
+      background-color: white;
+      box-shadow: 3px 5px #888888;
+  }
+
+  .head_ticket{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 3%;
+      padding-right: 3%;
+      padding-top: 4%;
+      padding-bottom:2%;
+     
+
+  }
+
+  .head_ticket_1{
+    text-align: left;
+    
+  }
+
+  .head_ticket_1 p{
+    font-size: 7px;
+    text-align: left;
+    text-align: left;
+    padding-top: 0;
+    padding-left: 6%;
+    color: #9cacbf;
+    margin:0%;
+  }
+
+  .head_ticket_2 p{
+    font-size: 9px;
+    
+    color: #424851;
+  }
+
+  .head_ticket_2 {
+    text-align: right;
+    align-items: center;
+  }
+
+  .destination{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    background: #051b3b;
+    text-align: center;
+    align-items: center;
+    grid-gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .destination p{
+    font-size: 8px;
+    color: #374b67;
+    
+  }
+
+  .destination h2{
+    color: white;
+    margin:0%;
+  }
+
+
+  .dates{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 8%;
+    text-align: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    background-color: #f1f1f1;
+
+  }
+
+  .dates p{
+    font-size: 8px;
+    color: #111833;
+    font-weight: bold;
+    margin:0%;
+  }
+
+  .dates h3{
+    font-size: 12px;
+    color: #1f2a34;
+    font-weight: normal;
+    margin:0%;
+    margin-bottom: 50%;
+
+  }
+
+  .code{
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+  }
+
+  .code_image{
+    width: 100%;
+  }
+
+  .bottom{
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
+  .bottom p{
+    font-size: 8px;
+    color: #5f6468;
+  }
+
+  @media only screen and (min-width: 34.5em){
+
+    .container{
+      margin: 25%;
+      width:50%;
+      height: 20%;
+
+  }
+
+  .delta{
+    width: 50%;
+  }
+
+ 
+  .head_ticket_1 p{
+    font-size: 10px;
+  }
+
+  .head_ticket_2 p{
+    font-size: 13px;
+ 
+  }
+
+  .destination h2{
+    font-size: 35px;
+  }
+
+  .destination p{
+    font-size: 15px;
+  }
+
+
+  .dates p{
+    font-size: 12px;
+  }
+
+  .dates h3{
+    font-size: 22px;
+   
+  }
+
+
+  .code_image{
+    width: 100%;
+  }
+
+
+  .bottom p{
+    font-size: 18px;
+   
+  }
+
+  }
