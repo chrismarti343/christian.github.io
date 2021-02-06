@@ -137,7 +137,7 @@ footer {
    padding-bottom: 1%;
    bottom:0%;
    width: 100%;
-   font-size: 10px;
+   font-size: 15px;
    font-family: 'Rubik', sans-serif;
    text-shadow: 1px 1px black;
 
@@ -152,12 +152,12 @@ footer {
         width: 50%;
         padding-top: 1%;
         padding-bottom: 2%;
-        grid-gap: 0;
+        grid-gap: 5%;
    
       
     }
     .logo{
-        width: 50%;
+        width: 100%;
     }
 
   
@@ -185,7 +185,7 @@ footer {
 
     nav {
         max-width: 100%;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     #navigation {
@@ -235,7 +235,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 11em) {
+@media only screen and (min-width: 64.063em) {
 
     nav {
       
@@ -259,7 +259,7 @@ footer {
 
     footer{
         font-size: 10px;
-     
+   
     }
 
 
