@@ -176,25 +176,24 @@ main{
 
   /*  HERO IMAGE  */
 
-  .hero_image{
+.hero_image{
     position: relative; 
     width: 100%;
     height: 250px;
     
-  }
+}
 
-  .hero_ph{
+.hero_ph{
     width: 100%;
     height: 250px;
-    background-image:
+    background-image: url('../images/preston.jpg');
     /* linear-gradient(to bottom, #025492,rgba(123, 132, 182, 0) 50%,rgba(245, 246, 252, 0) 45%, #025492 90%),*/
-    url('../images/preston.jpg');
     background-size: cover;
 
-  }
+}
 
 
-  .weather_summary {
+.weather_summary {
       position: absolute;
       width: 50%;
       left: 25%;
@@ -207,12 +206,12 @@ main{
       border-radius: 8px;
       font-weight: bold;
       text-shadow: 1px 1px black;
-  }
+}
 
 .weather_text{
     display:grid;
     grid-template-columns: auto auto;
-    grid-gap: 3%
+    grid-gap: 3%;
 
 }
 
@@ -231,8 +230,6 @@ main{
     padding: 3%;
 
 }
-
-
     /* FOOTER  */
 
 footer {
@@ -339,6 +336,7 @@ footer {
     footer p{
         padding:0;
         margin:1%;
+        font-size: 10px;
     }
 }
 
@@ -369,7 +367,7 @@ footer {
         height: 450px; 
       }
     
-      .hero_ph{
+    .hero_ph{
         width: 100%;
         height: 250px;
       }
