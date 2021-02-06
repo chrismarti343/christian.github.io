@@ -1,5 +1,3 @@
-
-
 body {
     background-color: white;
     background-position: center; /* Center the image */
@@ -11,52 +9,6 @@ body {
 header{
     background-color:  #DEB718;
     height: 100%;
-}
-
-.ad {
-    background-color: #0094b2;
-    color: white;
-    margin-top:0%;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    display: grid;
-    grid-template-columns: 30% auto;
-    -moz-box-shadow:    inset 0 0 10px #093b61;
-    -webkit-box-shadow: inset 0 0 10px  #093b61;
-    box-shadow:         inset 0 0 10px  #093b61;
-
-}
-
-.ad p {
-    margin-top: 0%;
-    align-items: center;
-   
-}
-
-.ad_image{
-    
-    margin-left: 10%;
-}
-
-.ad_image img{
-    width: 80%;
-
-}
-
-.hour{
-    color: #78d44f;
-    font-size: 12px;
-    text-align: center;
-    text-shadow: 1px 1px black;
-    font-family: 'Rubik', sans-serif;
-    padding-top: 0%;
-}
-
-.saturday{
-    font-size: 12px;
-    text-shadow: 2px 2px black;
-    font-family: 'Potta One', cursive;
-    padding-top: 3%;
 }
 
 .logo{
@@ -173,84 +125,81 @@ main{
     
 }
 
-
-  /*  HERO IMAGE  */
+/* HERO IMAGE */
 
 .hero_image{
     position: relative; 
     width: 100%;
     height: 250px;
+    }
     
-}
-
-.hero_ph{
+    .hero_ph{
     width: 100%;
     height: 250px;
     background-image: url('../images/preston.jpg');
     /* linear-gradient(to bottom, #025492,rgba(123, 132, 182, 0) 50%,rgba(245, 246, 252, 0) 45%, #025492 90%),*/
     background-size: cover;
-
-}
-
-
-.weather_summary {
-      position: absolute;
-      width: 50%;
-      left: 25%;
-      align-items: center;
-      text-align: center;
-      top: 25%;
-      background-color: rgba(2,84,146, 0.85);
-      color: white;
-      box-shadow: 5px 5px 15px 5px gray;
-      border-radius: 8px;
-      font-weight: bold;
-      text-shadow: 1px 1px black;
-}
-
-.weather_text{
+    
+    }
+    
+    .weather_summary {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    align-items: center;
+    text-align: center;
+    top: 25%;
+    background-color: rgba(2,84,146, 0.85);
+    color: white;
+    box-shadow: 5px 5px 15px 5px gray;
+    border-radius: 8px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    }
+    
+    .weather_text{
     display:grid;
     grid-template-columns: auto auto;
     grid-gap: 3%;
-
-}
-
-.weather_white{
+    
+    }
+    
+    .weather_white{
     text-align: right;
-}
-
-.weather_yellow{
+    }
+    
+    .weather_yellow{
     text-align: left;
     color: #DEB718;
-}
-
-.day_forecast{
+    }
+    
+    .day_forecast{
     border-style: dotted;
     margin-top: 3%;
     padding: 3%;
-
-}
-    /* FOOTER  */
+    
+    }
 
 footer {
     background-color: #025492;
     align-items: center;
     text-align: center;
     -moz-box-shadow:    inset 0 0 10px #3099e9;
-    -webkit-box-shadow: inset 0 0 10px #3099e9;
-    box-shadow:         inset 0 0 10px #3099e9;
-    color: white;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    bottom:0%;
-    width: 100%;
-    font-size: 12px;
-    font-family: 'Rubik', sans-serif;
-    text-shadow: 1px 1px black;
+   -webkit-box-shadow: inset 0 0 10px #3099e9;
+   box-shadow:         inset 0 0 10px #3099e9;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   bottom:0%;
+   width: 100%;
+   font-size: 15px;
+   font-family: 'Rubik', sans-serif;
+   text-shadow: 1px 1px black;
+
 }
 
 
-@media only screen and (min-width: 37.5em){
+@media only screen and (min-width: 34.5em){
 
     .wrapper {
         margin-right: 25%;
@@ -258,21 +207,18 @@ footer {
         width: 50%;
         padding-top: 1%;
         padding-bottom: 2%;
-        grid-gap: 0;
+        grid-gap: 5%;
    
       
     }
     .logo{
-        width: 50%;
+        width: 100%;
     }
 
-  
-    
 
     .box2 {
         text-align: center;
-    
-    
+
     }
 
 
@@ -291,7 +237,7 @@ footer {
 
     nav {
         max-width: 100%;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     #navigation {
@@ -336,13 +282,14 @@ footer {
     footer p{
         padding:0;
         margin:1%;
-        font-size: 50px;
     }
+
+
 }
 
-@media only screen and (min-width:80.063em){
+@media only screen and (min-width: 64.063em) {
 
-    nav{
+    nav {
       
         font-size: 15px;
     }
@@ -355,27 +302,34 @@ footer {
         font-size: 40px;  
        
     }
+    
 
     .box2 p{  
-        font-size: 13px;  
+    font-size: 13px;  
     }
   
-    /* HERO/BANNER  */
-
     .hero_image{
-        height: 450px; 
-      }
+      
+        height: 450px;
+        }
+        
+        .hero_ph{
+       
+        height: 450px;
+      
     
-    .hero_ph{
-        width: 100%;
-        height: 250px;
-      }
+        }
 
     footer{
-        font-size: 50px;
-     
+        font-size: 10px;
+   
     }
+
+
 }
+
+
+
 
 
 
