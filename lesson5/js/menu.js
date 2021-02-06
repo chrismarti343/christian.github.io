@@ -28,4 +28,18 @@ var day = n.getDay();
 console.log(weekday[day])
 document.getElementById("date").innerHTML = weekday[day] + ", "  + d + " "+ monthNames[m] +" " + y ;
 
+function showhide(){
+  var n =  new Date();
+  var day = n.getDate();
+  console.log(day);
+
+  if (day == 5){
+    var show = document.getElementById("ad_conteiner");
+    console.log(show);
+    show.style.display = (show.style.display == 'block') ? 'none' : 'block';
+  } 
+  
+}
+showhide();
+
                   
