@@ -1,3 +1,18 @@
+#fullwidth{
+    width: 100%;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: 12px solid black;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+
+
+
 body {
     background-color: white;
     background-position: center; /* Center the image */
@@ -326,6 +341,42 @@ main{
         box-shadow: 5px 5px 15px 5px gray;
     }
 
+    .mapouter{
+        left: 10%;
+    }
+
+    .info_title{
+       
+        text-align: center;   
+        text-shadow: 1px 1px black;
+        color: white;
+        padding-bottom: 2%;
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+
+    .inf_tel{
+        padding-bottom: 6%;
+    }
+
+    .inf_icon{
+        display:grid;
+        grid-template-columns: 20% auto auto auto auto 20% ;
+        grid-gap: 1%;
+        width: 100%;
+        margin-left: 12%;
+      
+    }
+
+    .social_media{
+        width:50%;
+    }
+
+    .inf_tel{
+        margin-top: 5%;
+    }
+
+
     footer {
         background-color: #025492;
         align-items: center;
@@ -417,6 +468,10 @@ main{
         
     }
 
+    .mapouter{
+        left: 25%;
+    }
+
 
     footer{
         margin-left: 5%;
@@ -436,6 +491,13 @@ main{
 
 @media only screen and (min-width: 64.063em) {
 
+
+    .wrapper {
+        padding-bottom: 1%;
+        grid-gap: 0%;
+        
+    }
+
     nav {
       
         font-size: 15px;
@@ -446,14 +508,14 @@ main{
     }
     
     .logo{
-        width: 90%;
+        width: 60%;
     }
 
     .box2 h1{  
         font-size: 60px;  
        
     }
-    
+
 
     .box2 p{  
     font-size: 18px;  
@@ -572,14 +634,38 @@ main{
 
     .information{
         
-        margin-top: 3%;
+        margin-top: 1%;
+        display: grid;
+        grid-template-columns: auto 30% 45%;
+        grid-gap:3%;
+        padding-top: 5%;
+        
        
     }
 
+    .inf_tel i{
+        font-size:20px;
+        padding: 2%;
+    }
+
+    .inf_icon{
+        width:100%;
+        align-items: center;
+       
+
+    }
+
+
+
+    
+
+
+   
+
      
-        footer{
+    footer{
             font-size: 15px;
-        }
+    }
 
 }
 
