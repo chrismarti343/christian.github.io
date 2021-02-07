@@ -370,6 +370,14 @@ main{
 
     .social_media{
         width:50%;
+        box-shadow: 3px 3px 53px 3px #025492;
+    }
+
+
+    .social_media:hover{
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
     }
 
     .inf_tel{
@@ -634,7 +642,7 @@ main{
 
     .information{
         
-        margin-top: 1%;
+        margin-top: 2%;
         display: grid;
         grid-template-columns: auto 30% 45%;
         grid-gap:3%;
