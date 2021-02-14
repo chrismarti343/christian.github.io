@@ -84,6 +84,7 @@ header{
 
 .logo{
     width: 100%;
+    /*font-family: 'Pangolin', cursive;*/
 }
 
 .logo img{
@@ -110,7 +111,7 @@ header{
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Pangolin', cursive;
 }
 
 .box2 h1{  
@@ -200,6 +201,9 @@ main{
     text-align: center;
     width: 100%;
     align-items: center;
+    font-family: 'Concert One', cursive;
+    text-shadow: 1px 1px #DEB718;
+    font-size: 20px;
 }
 
 /* article */ 
@@ -238,7 +242,7 @@ main{
     left: 25%;
     align-items: center;
     text-align: center;
-    top: 20%;
+    top: 15%;
     background-color: rgba(2,84,146, 0.85);
     color: white;
     box-shadow: 5px 5px 15px 5px gray;
@@ -262,6 +266,21 @@ main{
     text-align: left;
     color: #DEB718;
     }
+
+    .windchill{
+        padding:0%;
+        margin:0%;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .windchill p{
+        padding:0%;
+        margin:0%;
+    
+    }
+
 
     /* FORECAAST  */ 
     
@@ -333,6 +352,7 @@ main{
         padding-top: 10%;
         background-color: #80a9c8;
         box-shadow: 5px 5px 15px 5px gray;
+        
         
     }
 
@@ -407,6 +427,11 @@ main{
     .inf_tel{
         margin-top: 5%;
     }
+
+    .inf_tel i{
+        margin: 2%;
+    }
+
 
 
     footer {
@@ -519,6 +544,10 @@ main{
         left: 25%;
     }
 
+    .inf_tel i{
+        margin: 2%;
+    }
+
 
     footer{
         margin-left: 5%;
@@ -575,18 +604,26 @@ main{
         border-left: none;
         border-right: none;
     }
+
+    .main_title{
+    
+        font-size: 25px;
+    }
   
     .hero_image{
       
         height: 550px;
+        
     }
         
-    .hero_ph{
-       
-        height: 550px;
-        background-image: 
-        linear-gradient(to bottom, #025492,rgba(123, 132, 182, 0) 0%,rgba(245, 246, 252, 0) 65%, #025492 95%); 
+    .hero_ph img{
+      
+        width: 100%;
+        object-fit: cover;
+        
     }
+       
+
 
     .weather_summary {
         position: absolute;
@@ -606,10 +643,12 @@ main{
     .day_forecast{
         display: block;
         border-style: none;
-        margin-top: 0%;
+        margin-top: 3%;
+        padding-top: 3%;
         background-color: #025492;
         text-align: center; 
         border-radius: 0px;  
+        border-radius: 8px;
         }
 
     .title_forecast h3{
@@ -693,7 +732,7 @@ main{
         margin-top: 2%;
         display: grid;
         grid-template-columns: auto 30% 45%;
-        grid-gap:3%;
+        grid-gap:5%;
         padding-top: 5%;
         
        
@@ -704,12 +743,19 @@ main{
         padding: 2%;
     }
 
+    .inf_tel {
+        text-align: left;
+        left: 50%;
+        margin-left: 15%;
+    }
+
     .inf_icon{
         width:100%;
-        align-items: center;
-       
-
+        margin-top: 3%; 
+        margin-left: 15%;
     }
+
+  
 
      
     footer{

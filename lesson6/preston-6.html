@@ -12,12 +12,7 @@
 <link type="text/css" href="css/main.css" rel="stylesheet"/>
 <!-- favicon-->
 <link rel="shortcut icon" href="favicon.ico">
-
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+<!-- Links -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Normalize link -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -105,17 +100,23 @@
               <div class="weather_text">
                   <div class="weather_white">
                     <p>Currently:</p>
-                    <p>High:</p>
+                    <p>Temperature:</p>
                     <p>Wind Chill:</p>
                     <p>Huminidity:</p>
                     <p>Wind Speeed:</p>
                 </div>
                   <div class="weather_yellow">
                     <p> Sunny</p>
-                    <p> 76 F</p>
-                    <p> F</p>
+                    <div class="windchill">
+                        <p id="temperature">27</p><span>&#8457;</span>
+                    </div>
+                    
+                    <p id="windchill"></p>
+                    
                     <p> 69%</p>
-                    <p> 5 mph</p>
+                    <div class="windchill">
+                        <p id="windspeed">10</p><span>mph</span>
+                    </div>
                 </div>
 
             </div>
@@ -153,7 +154,7 @@
                     <source media ="(max-width: 450px)"  srcset ="images/logo_small.png">
                     <source media ="(max-width: 780px)"  srcset ="images/logo_medium.png">
                     <source media ="(max-width: 1280px)" srcset ="images/logo_large.png">
-                    <img src="images/cloudy.png" alt="home">
+                    <img src="images/logo.png" alt="home">
                     </picture><br><span>65&#8457;</span></td>
                   <td><picture class="cloudy">
                     <source media ="(max-width: 450px)"  srcset ="images/logo_small.png">
@@ -220,9 +221,13 @@
             
 
             <div class="inf_tel">
-            
-                <i class="fa fa-phone">  203 345 2345</i> <br>
-                <i class="fa fa-envelope" style="color:black">  theclimatoday@gmail.com</i>
+              
+              <i class="fa fa-address-card" aria-hidden="true"> 129 Princeton Ct , Rexburg, ID</i><br>
+              <i class="fa fa-phone">  203 345 2345</i> <br>
+              <i class="fa fa-envelope" style="color:black"> theclimatoday@gmail.com</i>
+               
+                
+
 
             </div>
 
@@ -253,6 +258,10 @@
     </footer>
     <!-- JS -->
 <script  src="js/menu.js"></script>
+<script  src="js/windchill.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script  src="js/font.js"></script>
+
     
 </body>
 </html>
