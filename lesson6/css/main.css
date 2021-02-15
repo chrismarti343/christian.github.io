@@ -98,7 +98,7 @@ header{
     padding-bottom: 5%;
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 20% 80% ;
     grid-template-rows: 100% 100%;
     grid-gap: 3%;
     text-align: center;
@@ -470,7 +470,6 @@ main{
         width: 100%;
     }
 
-
     .box2 {
         text-align: center;
 
@@ -478,13 +477,13 @@ main{
 
 
     .box2 h1{  
-        font-size: 60px;  
+        font-size: 40px;  
         margin: 0;
 
     }
 
     .box2 p{  
-        font-size: 18px;  
+        font-size: 14px;  
         text-shadow: 1px 1px white;
 
     }
@@ -569,6 +568,7 @@ main{
 
 
     .wrapper {
+       
         padding-bottom: 1%;
         grid-gap: 0%;
         
@@ -584,13 +584,27 @@ main{
     }
     
     .logo{
-        width: 60%;
+        width: 50%;
+    }
+
+    .logo img{
+        width: 100%;
+        margin-right: 15%;
+    }
+
+
+
+
+    .box2 h1{  
+        font-size: 60px;  
+       
     }
 
     .box2 h1{  
         font-size: 60px;  
        
     }
+
 
 
     .box2 p{  
