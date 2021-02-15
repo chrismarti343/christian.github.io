@@ -588,12 +588,9 @@ main{
     }
 
     .logo img{
-        width: 100%;
+        width: 80%;
         margin-right: 15%;
     }
-
-
-
 
     .box2 h1{  
         font-size: 60px;  
