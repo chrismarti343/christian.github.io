@@ -1,14 +1,4 @@
-#fullwidth{
-    width: 100%;
-    background-color: purple;
-    color: white;
-    padding: 10px;
-    border: 12px solid black;
-    box-sizing: border-box;
-    position: sticky;
-    top: 0;
-    z-index: 20;
-}
+
 
 
 body {
@@ -90,7 +80,7 @@ header{
 }
 
 .wrapper {
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -109,7 +99,7 @@ header{
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'Pangolin', cursive;
+    
 }
 
 .box2 h1{  
@@ -118,12 +108,17 @@ header{
     font-size: 30px;
     padding: 0;
     margin: 2%;
+    
+    
 }
 .box2 p{  
     color: #025492;
-    font-size: 10px;
+    font-size: 15px;
     padding-top: 2%;
     margin: 0;
+    font-family: 'Potta One', cursive;
+    text-shadow: 1px 0px #3099e9;
+   
 }
 
 .box1 {
@@ -228,7 +223,7 @@ main{
 
 }
     
-    .weather_summary {
+.weather_summary {
     position: absolute;
     width: 50%;
     left: 25%;
@@ -237,11 +232,11 @@ main{
     top: 15%;
     background-color: rgba(2,84,146, 0.85);
     color: white;
-    box-shadow: 5px 5px 15px 5px gray;
+    box-shadow: 5px 5px 15px 5px white;
     border-radius: 8px;
     font-weight: bold;
     text-shadow: 1px 1px black;
-    }
+}
     
     .weather_text{
     display:grid;
@@ -362,7 +357,7 @@ main{
         object-fit: cover;
         width: 90%;
         height: 100%;
-        box-shadow: 5px 5px 15px 5px gray;
+        box-shadow: 5px 5px 35px 2px white;
     }
 
     /* INFORMATION */
@@ -610,7 +605,7 @@ main{
 
 
     .box2 p{  
-    font-size: 18px;  
+        font-size: 18px;  
     }
 
     .active{
@@ -623,7 +618,7 @@ main{
 
     .main_title{
     
-        font-size: 25px;
+        font-size: 30px;
     }
   
     .hero_image{
@@ -651,7 +646,7 @@ main{
         top: 15%;
         background-color: rgba(2,84,146, 0.85);
         color: white;
-        box-shadow: 5px 5px 15px 5px gray;
+        box-shadow: 5px 5px 15px 5px white;
         border-radius: 8px;
         font-weight: bold;
         text-shadow: 1px 1px black;
