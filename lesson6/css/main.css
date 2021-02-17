@@ -203,6 +203,7 @@ main{
     font-family: 'Concert One', cursive;
     text-shadow: 1px 1px #DEB718;
     font-size: 20px;
+    color: black;
 }
 
 
@@ -345,6 +346,7 @@ main{
         padding-top: 10%;
         background-color: #4d87b2;
         box-shadow: 5px 5px 15px 5px gray;
+        color:black;
         
         
     }
@@ -400,6 +402,7 @@ main{
 
     .inf_tel{
         padding-bottom: 6%;
+        color: black;
     }
 
     .inf_icon{
