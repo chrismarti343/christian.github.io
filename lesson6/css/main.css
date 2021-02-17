@@ -385,6 +385,7 @@ main{
     iframe {
         width: 300px;
         height: 300px;
+        border-width: 0px;
 
     }
 
@@ -724,17 +725,23 @@ main{
         padding-bottom: 0%;
             
     }
+
+     /* ARTICLE */ 
         
     .article{
         margin-top:2%;
-        padding-top: 2%;
+        padding-top: 7%;
+        padding: 3%;
         display: grid;
         grid-template-columns: auto auto;
 
     }
 
+    
+
+
     .article_text{
-        top: 35%;
+        top: 20%;
         position: relative;
         align-items: center;
            
