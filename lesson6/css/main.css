@@ -11,13 +11,12 @@
 }
 
 
-
-
 body {
     background-color: white;
     background-position: center; /* Center the image */
     background-repeat: repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */   
+    text-rendering: auto;
   }
 
 
