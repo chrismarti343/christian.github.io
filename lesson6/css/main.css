@@ -386,8 +386,13 @@ main{
         box-shadow: 5px 5px 15px 5px gray;
     }
 
-    .mapouter{
-        left: 10%;
+
+        /* GOOGLE MAP */
+
+    iframe {
+        width: 300px;
+        height: 300px;
+
     }
 
     .info_title{
@@ -540,8 +545,12 @@ main{
         
     }
 
-    .mapouter{
-        left: 25%;
+      /* GOOGLE MAP */
+
+      iframe {
+        width: 450px;
+        height: 350px;
+    
     }
 
     .inf_tel i{
@@ -749,6 +758,15 @@ main{
         
        
     }
+
+     /* GOOGLE MAP */
+
+    iframe {
+        width: 350px;
+        height: 350px;
+    
+    }
+    
 
     .inf_tel i{
         font-size:20px;
