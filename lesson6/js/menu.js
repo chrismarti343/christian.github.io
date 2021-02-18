@@ -33,7 +33,7 @@ function showhide(){
   var day = n.getDate();
   console.log(day);
 
-  if (day == 3){
+  if (day == 5){
     var show = document.getElementById("ad_conteiner");
     console.log(show);
     show.style.display = (show.style.display == 'block') ? 'none' : 'block';
