@@ -16,7 +16,7 @@ header{
 /* ADD FOR SATURDAY */ 
 
 #ad_conteiner{
-    display: none;
+    display: block;
 }
 
 .ad {
