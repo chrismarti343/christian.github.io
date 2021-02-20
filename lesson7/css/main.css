@@ -221,6 +221,7 @@ h2{
     column-gap: 1%;
     padding-bottom: 1%;
     margin-bottom: 2%;
+    background-color: rgb(230, 218, 218);
 }
 
 .gallery{
@@ -485,7 +486,7 @@ img {
     
 
     .loading{
-        width: 316px;
+        width: 100%;
         height: 216px;
         border-radius:7px;
     }

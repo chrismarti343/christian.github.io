@@ -16,13 +16,7 @@
     min-height: 50px; 
 }
 
-img {
-    border: 1px solid blue;
-    min-width: 50px;
-    min-height: 50px;
-    opacity: 1;
-	transition: opacity 3s;
-}
+
 
 
 .placeholder-loading::before {
