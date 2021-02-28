@@ -97,11 +97,11 @@
 
       <div class="form">
 
-        <form class="form-storm" action="/hotel/accounts/index.php" method="post" name="form-storm">
+        <form class="form-storm" action="thankyou.html" method="post" name="form-storm">
          
           <div class="box">
           <label for="fullname">Full Name * <br>
-          <input class="form-styling" type="text" name="fullname" id="fullname" placeholder="Jhon Doe" pattern="[A-Za-z]{5}" required/></label>
+          <input class="form-styling" type="text" name="fullname" id="fullname" placeholder="Jhon Doe" pattern="[A-Za-z]{5,20}" required/></label>
           </div>
 
            <div class="box">
@@ -111,12 +111,12 @@
 
           <div class="box">
           <label for="phone">Phone Number* <br>
-          <input class="phone" type="tel" name="phone" id="phone"placeholder="(111) - 111 - 1111" required/></label>
+          <input class="phone" type="tel" name="phone" id="phone"placeholder="123 - 456 - 7891" pattern="[0-9]{10}" required/></label>
           </div>
 
           <div class="box">
             <label for="zip_code"> Zip Code* <br>
-            <input class="zip_code" type="number" name="zip_code" id="zip_code" placeholder="" required/></label>
+            <input class="zip_code" type="number" name="zip_code" id="zip_code" placeholder="01234" required/></label>
           </div>
 
           <div class="box">
@@ -127,14 +127,15 @@
 
           <div class="box">
           <label for="data">Storm Type <br>
-          <input class="data" type="text" name="daata" id ="data" placeholder="" /></label>
+          <input class="data" type="text" name="data" id ="data_storm" list="data" placeholder="" />
           <datalist id="data">
-            <option value="Flash Flood">
-            <option value="Hail">
-            <option value="Hurricane">
-            <option value="Thunderstorm">
-            <option value="Tornado">
+            <option value="Flash Flood"> </option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
           </datalist>
+        </label>
           </div>
 
           <div class="box">
@@ -159,13 +160,15 @@
             <fieldset class="fieldset">
               <legend>User in danger <em>(Choose one)</em></legend>
               <div class="selection">
-                <input type="radio" id="option" name="option" value="8" checked> <label for="option1">Yes</label><br>
+                <input type="radio" id="option" name="option" value="yes"> 
+                <label for="option1">Yes</label><br>
               </div>
               <div class="selection">
-                <input type="radio"  id="option" name="option" value="9"><label for="option2">Maybe</label>
+                <input type="radio"  id="option" name="option" value="maybe">
+                <label for="option2">Maybe</label>
               </div>
               <div class="selection">
-                <input type="radio" id="option" name="option" value="10">
+                <input type="radio" id="option" name="option" value="no">
                 <label for="option3">No</label>
               </div>
             </fieldset>
@@ -179,6 +182,7 @@
           </div>
 
           <button class="btn-submit" type="submit" name="submit" id="region" value="send_infor">Submit Query</button> 
+          
             
           
 				        </form>     
