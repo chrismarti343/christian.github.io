@@ -245,12 +245,14 @@ label{
     margin: auto;
 }
 
-.btn-submit{
+#btn-submit{
     background-color: #1db954;
     color: #14181a;
     border-radius: 5px;
     padding:5%;
-    margin-top: 5%;
+    margin-top: 7%;
+    box-shadow: 5px 10px 10px #888888;
+    width: 100%;
 }
 
 
