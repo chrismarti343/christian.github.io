@@ -1,0 +1,73 @@
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #4d4d96;
+    font-family: 'RocknRoll One', sans-serif; 
+
+}
+
+.cards{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: #dddddd;
+    padding-top: 2%;
+    box-shadow: 0px 0px  30px black;
+
+}
+
+.cards h2{
+    color: #4d4d96;
+    font-family: 'RocknRoll One', sans-serif; 
+}
+
+section{
+
+    border: solid 1px #525298;
+    margin: 3%;
+    background-color: #b9b9cc;
+}
+
+img {
+    width: 50%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    
+    box-shadow: 0px 0px  20px black;
+}
+
+p{
+    padding: 0%;
+    margin: 2%;
+}
+
+footer{
+    margin:2%;
+    text-align:center;
+}
+@media only screen and (min-width: 34.5em){
+    .cards{
+        display: grid;
+        grid-template-columns: auto auto ;
+        column-gap: 0%;
+        box-shadow: 0px 0px  40px black;
+        width: 98%;
+    
+    }
+
+}
+
+@media only screen and (min-width: 64.063em) {
+    .cards{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 0%;
+        box-shadow: 0px 0px  40px black;
+        width: 98%;
+    
+    }
+
+
+}
