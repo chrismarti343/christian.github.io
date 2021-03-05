@@ -3,7 +3,7 @@
 
 <head>
 <!-- title -->
-<title>Storm Center</title>
+<title>Home</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-with,initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -71,12 +71,12 @@
     
             <ul id ="navigation"> 
                 <li><a href="#" class="ham">&#9778; MENU</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a class= "active" href="#">Home</a></li>
                 <li><a  href="#">Preston</a></li>
                 <li><a href="#">Soda</a></li>
                 <li><a href="#">Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
-                <li><a class= "active"href="#">Storm Center</a></li>
+                <li><a href="#">Storm Center</a></li>
                 <li><a href="#">Gallery</a></li>
             </ul>
       
@@ -88,102 +88,18 @@
   <main> 
 
     <div class="container">
-      <div class="main_title">
-        <h2>Storm Center</h2>
+      
+
+      <div class = "cards">
+
+        
       </div>
 
-      <div class="form">
 
-        <form class="form-storm" action="thankyou.html" method="get" name="form-storm">
-         
-          <div class="box">
-          <label for="fullname">Full Name * <br>
-          <input class="form-styling" type="text" name="fullname" id="fullname" placeholder="Jhon Doe" pattern="[A-Za-z]{5,20}" required/></label>
-          </div>
 
-           <div class="box">
-          <label for="email">Email <br>
-          <input class="email" type="email" name="guestEmail" id="email" placeholder="youremail@email.com"/></label>
-          </div>
 
-          <div class="box">
-          <label for="phone">Phone Number* <br>
-          <input class="phone" type="tel" name="phone" id="phone"placeholder="123 - 456 - 7891" pattern="[0-9]{10}" required/></label>
-          </div>
 
-          <div class="box">
-            <label for="zip_code"> Zip Code* <br>
-            <input class="zip_code" type="number" name="zip_code" id="zip_code" placeholder="01234" required/></label>
-          </div>
 
-          <div class="box">
-            <label for="guest_date">Storm Date <br>
-            <input class="guest_date" type="date" name="guest_date" id="guest_date" placeholder="" /></label>
-            </div>
-  
-
-          <div class="box">
-          <label for="data">Storm Type <br>
-          <input class="data" type="text" name="data" id ="data_storm" list="data" placeholder="" />
-          <datalist id="data">
-            <option value="Flash Flood"> </option>
-            <option value="Hail"></option>
-            <option value="Hurricane"></option>
-            <option value="Thunderstorm"></option>
-            <option value="Tornado"></option>
-          </datalist>
-        </label>
-          </div>
-
-          <div class="box">
-            <label for="rating">Rating <br>
-            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" 
-            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
-            </div>
-
-          <div class="box">
-           
-            
-            <label for="rating">Storm Info <br>
-              <select name="browsers" id="selectbrowser" onchange="selectResponse()">
-                <option value="" disabled selected>Select Region ...</option>
-                <option value="Preston">Preston</option>
-                <option value="Soda Springs">Soda Springs</option>
-                <option value="Fish Haven">Fish Haven</option>
-              </select></label>
-          </div>
-
-          <div class="box">
-            <fieldset class="fieldset">
-              <legend>User in danger <em>(Choose one)</em></legend>
-              <div class="selection">
-                <input type="radio" id="option" name="option" value="yes"> 
-                <label for="option1">Yes</label><br>
-              </div>
-              <div class="selection">
-                <input type="radio"  id="option" name="option" value="maybe">
-                <label for="option2">Maybe</label>
-              </div>
-              <div class="selection">
-                <input type="radio" id="option" name="option" value="no">
-                <label for="option3">No</label>
-              </div>
-            </fieldset>
-          </div>
-
-          <div class="box">
-          <label for="guestPassword">Additional Information </label><br>
-          <textarea id="w3review" name="w3review" rows="4" cols="25">
-           
-            </textarea>
-          </div>
-
-          <input class="btn-submit" type="submit" name="submit" id="btn-submit" value="Submit Query">
-          
-            
-          
-				        </form>     
-      </div>
 
 
       <div class="information">
