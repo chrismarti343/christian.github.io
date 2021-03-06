@@ -9,10 +9,14 @@ fetch(requestURL)
   .then(function (jsonObject) {
     const towns = jsonObject['towns'];
     console.table(jsonObject);
-    for (let i = 0; i < 3; i++ ) { 
+    for (let i = 0; i < 7; i++ ) {
+
+
+
+        if ((towns[i].name === 'Preston') || (towns[i].name === 'Soda Springs')|| (towns[i].name === 'Fish Haven')){
 
         let card = document.createElement('article');
-        
+
         let text = document.createElement('div');
         text.classList.add('data');
 
@@ -20,7 +24,7 @@ fetch(requestURL)
         image_box.classList.add('image_box');
 
 
-        
+
         let h2 = document.createElement('h2');
         let motto = document.createElement('h3');
         let found = document.createElement('p');
@@ -35,7 +39,7 @@ fetch(requestURL)
         rain.textContent ="Annual Rain Fall: " + towns[i].averageRainfall;
         image.setAttribute('src', towns[i].photo);
         image.setAttribute('alt', towns[i].name);
-       
+
 
         card.appendChild(text);
         card.appendChild(image_box);
@@ -47,6 +51,8 @@ fetch(requestURL)
         image_box.appendChild(image);
 
         document.querySelector('div.cards').appendChild(card);
+
+      }
         
     }
     
