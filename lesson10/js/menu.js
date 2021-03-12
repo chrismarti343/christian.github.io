@@ -32,13 +32,18 @@ function showhide(){
   var n =  new Date();
   var day = n.getDate();
   console.log(day);
+ 
 
-  if (day == 5){
-    var show = document.getElementById("ad_conteiner");
-    console.log(show);
-    show.style.display = (show.style.display == 'block') ? 'none' : 'block';
-  } 
-  
+  let pday = new Date();
+    let aside = document.querySelector('aside');
+ 
+  if (pday.getDay() === 5) {
+    aside.style.display ="block";
+  }
+  else {
+    aside.style.display = "none";
+  }
+    
 }
 showhide();
 

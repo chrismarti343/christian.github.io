@@ -15,12 +15,9 @@ header{
 
 /* ADD FOR SATURDAY */ 
 
-#ad_conteiner{
-    display: none;
-}
 
 .ad {
-    display:none;
+   
     background-color: #0094b2;
     color: white;
     margin-top:0%;
@@ -33,35 +30,28 @@ header{
     box-shadow: inset 0 0 10px #093b61;
     }
     
-    .ad p {
+.ad p {
     margin-top: 0%;
     align-items: center;
-    }
+ }
     
-    .ad_image{
-    margin-left: 10%;
-    }
-    
-    .ad_image img{
-    width: 80%;
-    
-    }
-    
-    .hour{
+
+
+#hour{
     color: #78d44f;
     font-size: 12px;
     text-align: center;
     text-shadow: 1px 1px black;
     font-family: 'Rubik', sans-serif;
     padding-top: 0%;
-    }
-    
-    .saturday{
+}
+
+#saturday{
     font-size: 12px;
     text-shadow: 2px 2px black;
     font-family: 'Potta One', cursive;
-    padding-top: 3%;
-    }
+    padding-top: 2%;
+}
 
 
 
@@ -446,6 +436,26 @@ main{
    
       
     }
+
+    /* AD FOR SATURDAY */
+    .pancakes img{
+        width: 70%;
+    }
+    
+    .ad_images{
+        margin-left:30%;
+    }
+
+    #hour{
+       
+        font-size: 15px;
+    }
+
+    #saturday{
+       
+        font-size: 18px;
+    }
+
     .logo{
         width: 100%;
     }
@@ -559,7 +569,7 @@ main{
 
        /* INFORMATION */
 
-       .information{
+    .information{
     
         box-shadow: 5px 5px 15px 5px gray;
     }
@@ -612,6 +622,7 @@ main{
         font-size: 20px;
     }
     
+
     .logo{
         width: 50%;
     }
@@ -664,7 +675,19 @@ main{
         
     }
        
+     /* ad for saturday  */ 
+    .pancakes img{
+        width: 50%;
+    }
 
+    #saturday{
+        font-size:25px;
+    }
+
+    #hour{
+       
+        font-size: 18px;
+    }
 
     .weather_summary {
         position: absolute;
@@ -741,7 +764,6 @@ main{
     }
 
     
-
 
     .article_text{
         top: 20%;
