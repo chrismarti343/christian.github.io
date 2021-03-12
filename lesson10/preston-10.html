@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- title -->
+<title>The Climatoday</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-with,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- CSS -->
+<link type="text/css" href="css/main.css" rel="stylesheet"/>
+<!-- favicon-->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- Links -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Normalize link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+
+</head>
+
+
+<body>
+    <header>
+
+        <div id="ad_conteiner">
+       
+        <div class= "ad">
+            <div class="ad_image">
+
+              <picture class="pancakes">
+                <source media ="(max-width: 450px)"  srcset ="images/pancake_small.png">
+                <source media ="(max-width: 780px)"  srcset ="images/pancake_medium.png">
+                <source media ="(max-width: 1280px)" srcset ="images/pancake_large.png">
+                <img src="images/pancake.png" alt="pancake">
+                </picture>
+                
+                
+                
+             
+            </div>
+
+            <div class="text_add">
+            <p class="saturday">Saturday = Preston Pancakes in the Park! </p>
+            <p class="hour"> 9:00 a.m Saturday | at the city park pavilion</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+        <div class ="wrapper">
+            <div class = "box1">
+                <picture class="logo">
+                    <source media ="(max-width: 450px)"  srcset ="images/logo_small.png">
+                    <source media ="(max-width: 780px)"  srcset ="images/logo_medium.png">
+                    <source media ="(max-width: 1280px)" srcset ="images/logo_large.png">
+                    <img src="images/logo.png" alt="home">
+                    </picture>
+            </div>
+
+            <div class = "box2">
+                <h1>The Climatoday</h1>
+                <hr>
+                <p>If the weather is too hot, this site is your spot</p>
+            </div>
+
+        </div>
+    </header>
+    
+    <nav>
+    
+            <ul id ="navigation"> 
+              <li><a href="#" class="ham">&#9778; MENU</a></li>
+              <li><a  href="https://chrismarti343.github.io/christian.github.io/lesson9/home.html">Home</a></li>
+              <li><a class= "active" href="https://chrismarti343.github.io/christian.github.io/lesson6/preston-6.html">Preston</a></li>
+              <li><a href="#">Soda</a></li>
+              <li><a href="#">Springs</a></li>
+              <li><a href="#">Fish Haven</a></li>
+              <li><a href="https://chrismarti343.github.io/christian.github.io/lesson8/W08/stormcenter.html">Storm Center</a></li>
+              <li><a href="https://chrismarti343.github.io/christian.github.io/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+      
+    
+       
+    </nav>
+
+
+  <main> 
+      <div class="main_title">
+          <h2>Preston Idaho</h2>
+      </div>
+
+      <div class="hero_image">
+          <picture class="hero_ph">
+            <source media ="(max-width: 450px)"  srcset ="images/preston_small.jpg">
+            <source media ="(max-width: 780px)"  srcset ="images/preston_medium.jpg">
+            <source media ="(max-width: 1300px)" srcset ="images/preston_large.jpg">
+            <img src="images/preston.jpg" alt="home">
+            </picture>
+
+          <section class="weather_summary">
+              <h3> Weather Summary</h3>
+              <hr>
+              <div class="weather_text">
+                  <div class="weather_white">
+                    <p>Currently:</p>
+                    <p>Temperature:</p>
+                    <p>High:</p>
+                    <p>Low:</p>
+                    <p>Wind Chill:</p>
+                    <p>Huminidity:</p>
+                    <p>Wind Speeed:</p>
+                </div>
+                  <div class="weather_yellow">
+                    
+                    
+                      <p><span id="description"></span></p>
+                   
+
+                    
+                      <p><span id="temperature"></span><span>&#8457;</span></p>
+                  
+                    
+                   
+                        <p><span id="temp_max"></span><span>&#8457;</span></p>
+                   
+
+                   
+                      <p><span id="temp_min"></span><span>&#8457;</span></p>
+                   
+                    
+                    
+                      <p><span id="windchill"></span><span>&#8457;</span></p>
+                   
+
+                    
+                      <p><span id="humidity"></span><span>%</span></p>
+                   
+
+                    
+                    <div class="wind">
+                        <p><span id="wind_speed"></span><span> mph</span></p>
+                    </div>
+                </div>
+
+            </div>
+          </section>
+      </div>
+      
+
+      <div id="five-day-forecast">
+      
+        <h2>Five-Day Forecast</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th id="day1">Day 1</th>
+                    <th id="day2">Day 2</th>
+                    <th id="day3">Day 3</th>
+                    <th id="day4">Day 4</th>
+                    <th id="day5">Day 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="" alt="" id="weather1"></td>
+                    <td><img src="" alt="" id="weather2"></td>
+                    <td><img src="" alt="" id="weather3"></td>
+                    <td><img src="" alt="" id="weather4"></td>
+                    <td><img src="" alt="" id="weather5"></td>
+                </tr>
+                <tr>
+                    <td id="temp1"></td>
+                    <td id="temp2"></td>
+                    <td id="temp3"></td>
+                    <td id="temp4"></td>
+                    <td id="temp5"></td>
+                </tr>
+            </tbody>
+        </table>
+   
+  </div>
+
+      <div class="article">
+        <div class="article_image">
+            <picture class="art_img">
+                <source media ="(max-width: 450px)"  srcset ="images/climate_small.jpg">
+                <source media ="(max-width: 780px)"  srcset ="images/climate_medium.jpg">
+                <source media ="(max-width: 1280px)" srcset ="images/climate_large.jpg">
+                <img src="images/climate.jpg" alt="home">
+                </picture>
+        </div>
+        <div class="article_text">
+            <h3>THE YEAR IN CLIMATE</h3>
+            <p>Half a world away, California recorded its own 
+                worst fire season this fall, driven in part by 
+                hot, dry conditions. Huge infernos scorched the 
+                landscape, devastating magnificent trees and 
+                wreaking havoc in the lives of millions of 
+                Americans.</p>
+            
+        </div>
+        
+    </div>
+
+      <div class="information">
+          
+        <h3 class="info_title">Contact Information</h3>
+
+            
+        <div id="googleMap__">
+  
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.7738534148!2d-111.91534432891885!3d42.09974162642155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1613524579877!5m2!1sen!2sus">
+          </iframe>
+          
+        </div>
+
+
+        <div class="social">
+            
+
+            <div class="inf_tel">
+              
+              <i class="fa fa-address-card"> 129 Princeton Ct , Rexburg, ID</i><br>
+              <i class="fa fa-phone">  203 345 2345</i> <br>
+              <i class="fa fa-envelope"> theclimatoday@gmail.com</i>
+            </div>
+
+            <div class="inf_icon">
+
+                <img class='social_media' src="images/facebook.png" alt="">
+                <img class='social_media' src="images/instagram.png" alt="">
+                <img class='social_media' src="images/youtube.png" alt="">
+                <img class='social_media' src="images/twitter.png" alt="">
+
+            </div>
+
+        </div>
+      </div>
+        
+    </main>
+
+    <footer>
+
+        <p>  &#169; The Climatoday | Christian Martinez | BYU-Idaho \\\</p>
+        <p id="date"></p>
+        
+      
+    </footer>
+    <!-- JS -->
+<script  src="js/menu.js"></script>
+<script  src="js/windchill.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script  src="js/font.js"></script>
+<script  src="js/hey.js"></script>
+<script src="js/api.js"></script>
+    
+</body>
+</html>
