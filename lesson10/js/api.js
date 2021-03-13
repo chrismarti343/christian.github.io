@@ -14,7 +14,7 @@ fetch(apiURLForecast)
 
             document.getElementById(`day${counter}`).textContent = dayOfWeek;
 
-            document.getElementById(`temp${counter}`).innerHTML = forecast.main.temp.toFixed(0) + '&deg';
+            document.getElementById(`temp${counter}`).innerHTML = forecast.main.temp.toFixed(0) + '&degF';
             console.log(forecast);
             
             
