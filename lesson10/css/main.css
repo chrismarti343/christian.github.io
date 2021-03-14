@@ -292,7 +292,7 @@ td, th {
     padding: 8px;
     color: white;
     text-align: center; 
-    font-size: 13px;
+    font-size: 9px;
 }
 
 td, #temp1, #temp2, #temp3, #temp4, #temp5{
@@ -308,6 +308,12 @@ th {
 #five-day-forecast img{
     width: 70%;
 }
+
+#five-day-forecast table {
+    table-layout: fixed;
+    width: 95%;
+}
+
 
 /* ARTICLE */ 
 
@@ -548,13 +554,17 @@ footer {
 
     td, th {
        
-        font-size: 18px;
+        font-size: 14px;
       }
     
     td, #temp1, #temp2, #temp3, #temp4, #temp5{
         font-size: 25px;
     }
 
+    #five-day-forecast table {
+        table-layout: fixed;
+        width: 85%;
+    }
 
 
     #five-day-forecast img{
@@ -718,11 +728,11 @@ footer {
         width: 50%;
     }
 
-    table{
-        width: 60%; 
-        
-        
+    #five-day-forecast table {
+        table-layout: fixed;
+        width: 80%;
     }
+
 
     td, th {
 
