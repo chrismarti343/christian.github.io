@@ -13,7 +13,7 @@ function getEvents(cityName){
                   event => {
                     let li = document.createElement('li');
                     li.textContent = event;
-                    console.log(event);
+                    console.log(town.events);
                     document.querySelector('#events').appendChild(li);
                   }
                  )
@@ -23,3 +23,5 @@ function getEvents(cityName){
        }
     ); 
     }
+
+getEvents(cityName);
