@@ -15,12 +15,9 @@ header{
 
 /* ADD FOR SATURDAY */ 
 
-#ad_conteiner{
-    display: none;
-}
 
 .ad {
-    display:none;
+   
     background-color: #0094b2;
     color: white;
     margin-top:0%;
@@ -33,36 +30,28 @@ header{
     box-shadow: inset 0 0 10px #093b61;
     }
     
-    .ad p {
+.ad p {
     margin-top: 0%;
     align-items: center;
-    }
+ }
     
-    .ad_image{
-    margin-left: 10%;
-    }
-    
-    .ad_image img{
-    width: 80%;
-    
-    }
-    
-    .hour{
+
+
+#hour{
     color: #78d44f;
     font-size: 12px;
     text-align: center;
     text-shadow: 1px 1px black;
     font-family: 'Rubik', sans-serif;
     padding-top: 0%;
-    }
-    
-    .saturday{
+}
+
+#saturday{
     font-size: 12px;
     text-shadow: 2px 2px black;
     font-family: 'Potta One', cursive;
-    padding-top: 3%;
-    }
-
+    padding-top: 1%;
+}
 
 
 /* LOGO */ 
@@ -182,8 +171,6 @@ nav {
     border-left: 5px solid #de5718;
     border-right: 5px solid #de5718;
 }
-
-
 
 /* main */ 
 
@@ -306,6 +293,26 @@ img {
    
       
     }
+
+    /* AD FOR SATURDAY */
+    .pancakes img{
+        width: 70%;
+    }
+    
+    .ad_images{
+        margin-left:30%;
+    }
+
+    #hour{
+       
+        font-size: 15px;
+    }
+
+    #saturday{
+       
+        font-size: 18px;
+    }
+
     .logo{
         width: 100%;
     }
@@ -323,7 +330,7 @@ img {
     }
 
     .box2 p{  
-        font-size: 14px;  
+        font-size: 12px;  
         text-shadow: 1px 1px white;
 
     }
@@ -356,6 +363,7 @@ img {
         border-left: none;
         border-right: none;
     }
+
     
 
     .gallery{
@@ -423,14 +431,15 @@ img {
     }
 
     nav {
-      
-        font-size: 15px;
+        font-size: 12px;
     }
 
     a{
-        font-size: 20px;
+        font-size: 17px;
     }
     
+    /* LOGO */ 
+
     .logo{
         width: 50%;
     }
@@ -441,28 +450,39 @@ img {
     }
 
     .box2 h1{  
-        font-size: 60px;  
+        font-size: 40px;  
        
     }
-
-    .box2 h1{  
-        font-size: 60px;  
-       
-    }
-
-
 
     .box2 p{  
-        font-size: 18px;  
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 2%;
+        font-size: 14px;  
     }
 
     .active{
-    
         border-bottom: 10px solid #de5718;
         border-top: none;
         border-left: none;
         border-right: none;
     }
+
+   
+       
+     /* ad for saturday  */ 
+    .pancakes img{
+        width: 50%;
+    }
+
+    #saturday{
+        font-size:25px;
+    }
+
+    #hour{   
+        font-size: 18px;
+    }
+
 
     .main_title{
     
