@@ -1,4 +1,5 @@
 
+
 body {
     background-color: white;
     background-position: center; /* Center the image */
@@ -15,12 +16,9 @@ header{
 
 /* ADD FOR SATURDAY */ 
 
-#ad_conteiner{
-    display: none;
-}
 
 .ad {
-    display:none;
+   
     background-color: #0094b2;
     color: white;
     margin-top:0%;
@@ -31,23 +29,16 @@ header{
     -moz-box-shadow: inset 0 0 10px #093b61;
     -webkit-box-shadow: inset 0 0 10px #093b61;
     box-shadow: inset 0 0 10px #093b61;
-}
+    }
     
 .ad p {
     margin-top: 0%;
     align-items: center;
-}
+ }
     
-#ad_image{
-    margin-left: 10%;
-}
-    
-#ad_image img{
-    width: 80%;
-    
-}
-    
-.hour{
+
+
+#hour{
     color: #78d44f;
     font-size: 12px;
     text-align: center;
@@ -55,14 +46,13 @@ header{
     font-family: 'Rubik', sans-serif;
     padding-top: 0%;
 }
-    
-.saturday{
+
+#saturday{
     font-size: 12px;
     text-shadow: 2px 2px black;
     font-family: 'Potta One', cursive;
-    padding-top: 3%;
+    padding-top: 1%;
 }
-
 
 
 /* LOGO */ 
@@ -107,12 +97,11 @@ header{
     margin: 2%;
     
     
-    
 }
 .box2 p{  
     color: #025492;
     font-size: 10px;
-    padding-top: 1%;
+    padding-top: 2%;
     margin: 0;
     font-family: 'Potta One', cursive;
     text-shadow: 1px 0px #3099e9;
@@ -214,7 +203,7 @@ article{
     text-align: center;
     border: solid 3px #093b61;
     border-radius: 10px;
-    background-color: #e78e65;
+    background-color: #deb6188a;
 }
 
 
@@ -228,8 +217,6 @@ article{
 
 .data p{
     color: #093b61;
-    text-shadow: 1px 0px white;
-    font-family: 'Akaya Telivigala', cursive;
     font-weight: bold;
 }
 
@@ -366,6 +353,26 @@ footer {
    
       
     }
+
+    /* AD FOR SATURDAY */
+    .pancakes img{
+        width: 70%;
+    }
+    
+    .ad_images{
+        margin-left:30%;
+    }
+
+    #hour{
+       
+        font-size: 15px;
+    }
+
+    #saturday{
+       
+        font-size: 18px;
+    }
+
     .logo{
         width: 100%;
     }
@@ -416,6 +423,7 @@ footer {
         border-left: none;
         border-right: none;
     }
+
 
     /* TOWNS*/   
 
@@ -505,51 +513,14 @@ footer {
     }
 
     nav {
-      
-        font-size: 15px;
+        font-size: 12px;
     }
 
     a{
-        font-size: 20px;
+        font-size: 17px;
     }
     
-     /* PANCAKE AD */
-
-    .ad {
-       
-        padding-top: 1%;
-        padding-bottom: 1%;
-        display: grid;
-        grid-template-columns: 40% auto;
-    
-    }
-        
- 
-        
-    #ad_image{
-        margin-left: 50%;
-        padding-top:2%;
-    }
-        
-    #ad_image img{
-        width: 50%;
-        
-    }
-        
-    .hour{
-        font-size: 16px;
-       
-    }
-        
-    .saturday{
-        font-size: 22px;
-        text-shadow: 2px 2px black;
-        font-family: 'Potta One', cursive;
-        padding-top: 3%;
-    }
-
-
-     /* LOGO */
+    /* LOGO */ 
 
     .logo{
         width: 50%;
@@ -560,34 +531,38 @@ footer {
         margin-right: 15%;
     }
 
-   
-
     .box2 h1{  
-        font-size: 50px;  
+        font-size: 40px;  
        
     }
 
-
     .box2 p{  
-        font-size: 14px;  
-        margin-top: 0%;
+        margin-top: 0;
         padding-top: 0;
+        padding-bottom: 2%;
+        font-size: 14px;  
     }
 
     .active{
-    
         border-bottom: 10px solid #de5718;
         border-top: none;
         border-left: none;
         border-right: none;
     }
 
+   
+       
+     /* ad for saturday  */ 
+    .pancakes img{
+        width: 50%;
+    }
 
+    #saturday{
+        font-size:25px;
+    }
 
-    .main_title{
-    
-        font-size: 25px;
-        margin: auto;
+    #hour{   
+        font-size: 18px;
     }
 
      
@@ -612,6 +587,14 @@ footer {
     article {
         display: inline-block;
         margin-bottom: 0%;
+    }
+
+    article p{
+        font-size: 20px;
+    }
+
+    .data h3{
+        font-size: 18px;
     }
 
     .image_box {
