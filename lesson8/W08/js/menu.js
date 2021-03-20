@@ -35,7 +35,7 @@ console.log(day);
 
 
 let pday = new Date();
-  let aside = document.querySelector('aside');
+let aside = document.querySelector('aside');
 
 if (pday.getDay() === 5) {
   aside.style.display ="block";
