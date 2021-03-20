@@ -815,7 +815,7 @@ footer {
         display: grid;
         grid-template-columns: auto 30% 45%;
         grid-gap:5%;
-        padding-top: 5%;
+        padding-top: 3%;
         box-shadow: 5px 5px 15px 5px gray;      
     }
 

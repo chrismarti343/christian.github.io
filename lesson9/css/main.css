@@ -1,5 +1,4 @@
 
-
 body {
     background-color: white;
     background-position: center; /* Center the image */
@@ -602,34 +601,29 @@ footer {
     }
 
    
+      /* CONTACT INFORMATION */ 
 
-
-     /* CONTACT INFORMATION */ 
-
-     .information{
+      .information{
         
         margin-top: 2%;
         display: grid;
         grid-template-columns: auto 30% 45%;
         grid-gap:5%;
         padding-top: 3%;
-        box-shadow: 5px 5px 15px 5px gray;  
-        margin-bottom:2%
-       
+        box-shadow: 5px 5px 15px 5px gray;      
     }
 
      /* GOOGLE MAP */
 
     iframe {
         width: 350px;
-        height: 350px;
-    
+        height: 250px;
     }
     
 
     .inf_tel i{
-        font-size:20px;
-        padding: 2%;
+        font-size:15px;
+        padding: 1%;
     }
 
     .inf_tel {
@@ -643,6 +637,7 @@ footer {
         margin-top: 3%; 
         margin-left: 15%;
     }
+
      
     footer{
             font-size: 15px;
