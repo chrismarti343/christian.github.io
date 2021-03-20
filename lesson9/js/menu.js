@@ -1,14 +1,14 @@
 
 
 window.addEventListener('load',()=>{
-    const hambutton = document.querySelector('.ham');
-    const mainnav = document.querySelector('#navigation');
+  const hambutton = document.querySelector('.ham');
+  const mainnav = document.querySelector('#navigation');
 
-    hambutton.addEventListener('click',()=> {mainnav.classList.toggle('responsive')},false);
+  hambutton.addEventListener('click',()=> {mainnav.classList.toggle('responsive')},false);
 });
 
 const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 ];
 
 var weekday=new Array(7);
@@ -29,15 +29,20 @@ console.log(weekday[day])
 document.getElementById("date").innerHTML = weekday[day] + ", "  + d + " "+ monthNames[m] +" " + y ;
 
 function showhide(){
-  var n =  new Date();
-  var day = n.getDate();
-  console.log(day);
+var n =  new Date();
+var day = n.getDate();
+console.log(day);
 
-  if (day == 5){
-    var show = document.getElementById("ad_conteiner");
-    console.log(show);
-    show.style.display = (show.style.display == 'block') ? 'none' : 'block';
-  } 
+
+let pday = new Date();
+  let aside = document.querySelector('aside');
+
+if (pday.getDay() === 5) {
+  aside.style.display ="block";
+}
+else {
+  aside.style.display = "none";
+}
   
 }
 showhide();
