@@ -801,7 +801,9 @@ footer {
     }
 
     .article_text{
-        top: 20%;
+        margin-top: 2%;
+        margin-left: 3%;
+        margin-right:3%;
         position: relative;
         align-items: center;
            
