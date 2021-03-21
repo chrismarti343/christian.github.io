@@ -202,7 +202,7 @@ article{
     text-align: center;
     border: solid 3px #093b61;
     border-radius: 10px;
-    background-color: #deb6188a;
+    background-color: #3099e926;
 }
 
 
@@ -215,23 +215,27 @@ article{
 }
 
 .data p{
-    color: #093b61;
+    color: #062c49;
     font-weight: bold;
+    font-size: 17px;
+
 }
 
 .data h3{
-    font-size: 12px;
+    font-size: 10px;
     padding-top: 0%;
     margin-top: 0%;
     padding-bottom: 5%;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .data h2{
-    font-size: 35px;
-    padding-bottom: 2%;
+    font-size: 40px;
+    padding-bottom: 7%;
     margin-bottom: 0%;
     text-decoration: underline #093b61;
     text-shadow: 1px 1px #3099e9;
+    font-family: 'Akaya Telivigala';
 }
 
 
