@@ -181,7 +181,7 @@ nav {
     width: 75%;
     border-radius: 15px;
     color: white;
-    background-color: #2c9bfc;
+    background-color: #0e5fa7;
     box-shadow: 0px 0px 15px #7fed97;
 }
 
@@ -748,6 +748,7 @@ footer {
       /* FORECAAST  */ 
     #five-day-forecast{
      margin-top: 3%;
+     box-shadow: 5px 5px 15px 5px gray; 
     
     }
 
