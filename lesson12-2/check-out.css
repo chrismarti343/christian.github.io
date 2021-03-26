@@ -1,0 +1,152 @@
+section {
+  margin: 0 auto;
+  width: 80%;
+  border: solid 1px black;
+  border-radius: 3px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-shadow: 5px 10px 30px;
+          box-shadow: 5px 10px 30px;
+}
+
+section .page1 {
+  background-color: #f5f5f5;
+}
+
+section .page1 img {
+  padding-top: 5%;
+  width: 100%;
+}
+
+section .page1 h1 {
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 15%;
+  padding-bottom: 8%;
+  color: #757575;
+}
+
+section .page1 hr {
+  width: 70%;
+}
+
+section .page1 .order_summary {
+  margin: 0 auto;
+  width: 70%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 25%;
+      grid-template-columns: auto 25%;
+  font-size: 12px;
+  color: #cacaca;
+}
+
+section .page1 .order_summary .prices {
+  text-align: right;
+  color: black;
+}
+
+section .page1 .total {
+  margin: 0 auto;
+  width: 70%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 16%;
+      grid-template-columns: auto 16%;
+  color: #cacaca;
+}
+
+section .page1 .total .total-price {
+  color: #1b75e4;
+}
+
+section .page1 .total .return {
+  padding-top: 10%;
+  padding-bottom: 25%;
+  font-size: 12px;
+  color: #1b75e4;
+}
+
+section .page2 {
+  margin: 0 auto;
+  width: 80%;
+}
+
+section .page2 .visa {
+  width: 100%;
+  margin-left: 75%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 15%;
+      grid-template-columns: 15% 15%;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+  padding-top: 2%;
+}
+
+section .page2 .visa .visa-box {
+  background-color: #1c6ce5;
+  border-radius: 5px 0px 0px 5px;
+  color: white;
+  text-align: center;
+}
+
+section .page2 .visa .paypal-box {
+  background-color: #d9d9d9;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  text-align: center;
+}
+
+section .page2 h2 {
+  color: #747474;
+}
+
+section .page2 .input {
+  padding-top: 6%;
+}
+
+section .page2 form input {
+  border: none;
+  padding-top: 2%;
+  color: black;
+}
+
+section .page2 form hr {
+  color: #747474;
+}
+
+section .page2 form label {
+  color: #747474;
+}
+
+section .page2 .buttons {
+  margin-top: 10%;
+}
+
+section .page2 .buttons .button-next {
+  background-color: #1c6ce5;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 8px 10px #747474;
+          box-shadow: 2px 8px 10px #747474;
+}
+
+section .page2 .buttons .button-cancel {
+  background-color: white;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #1c6ce5;
+  border: none;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=check-out.css.map */
