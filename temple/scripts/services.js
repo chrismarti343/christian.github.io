@@ -7,33 +7,33 @@ fetch('scripts/temples.json')
 
 
 
-.then(prophetsList =>{ 
-    let prophet = prophetsList.prophets;
+.then(templesList =>{ 
+    let temple = templesList.temples;
 
-    prophet.forEach(
-        prophet => {
+    temple.forEach(
+        temple => {
             let article = document.createElement('article');
 
             let h1 = document.createElement('h1');
-            h1.textContent = `${prophet.name} ${prophet.lastname}`;
+            h1.textContent = `${temple.name} ${temple.lastname}`;
 
             let dateOfBirth = document.createElement('p');
-            dateOfBirth.textContent = `Date of dedication: ${prophet.birthdate}`;
+            dateOfBirth.textContent = `Date of dedication: ${temple.birthdate}`;
 
             let placeOfBirth = document.createElement('p');
-            placeOfBirth.textContent = `Place: ${prophet.birthplace}`;
+            placeOfBirth.textContent = `Place: ${temple.birthplace}`;
 
             let image = document.createElement('img');
-            image.setAttribute('src', prophet.imageurl);
-            image.setAttribute('alt', `${prophet.name} ${prophet.lastname}`);
+            image.setAttribute('src', temple.imageurl);
+            image.setAttribute('alt', `${temple.name} ${temple.lastname}`);
 
 
             article.appendChild(h1);
+            article.appendChild(image);
             article.appendChild(dateOfBirth);
             article.appendChild(placeOfBirth);
-            article.appendChild(image);
 
-            document.querySelector('#prophets').appendChild(article);
+            document.querySelector('#temples').appendChild(article);
         }
     );
 

@@ -1,0 +1,113 @@
+
+
+
+
+header{
+    height: 100%;
+
+    .wrapper {
+        margin-left: 18%;
+        margin-right: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        
+        .box1 {
+
+ 
+
+            .logo {
+                width: 50%;
+                /*font-family: 'Pangolin', cursive;*/
+                img{
+                    width: 20%;
+                }//LOGO IMAGE
+            }//LOGO
+        }//BOX1
+
+
+
+        .box2 {
+            width: 50%;
+            margin-top: 0%;
+          
+
+            h1{  
+                font-size: 35px;
+            }
+
+            p{  
+
+                font-size: 25px;
+                          
+            }
+
+            
+        }//BOX2
+
+
+    }
+}//HEADER
+
+
+/* CSS OF MENU */ 
+
+nav {
+   
+   #navigation {
+    padding-top:0%;
+    font-size: 20px;
+   
+   
+    li:first-child{
+        display: none;
+    }
+
+    li{
+
+        a.active{
+           
+            border-radius: 15px;
+       
+        }
+       
+    }//li
+
+    }//#navigation
+}//NAV
+
+
+
+.features{
+   
+
+          img {
+              width:20%;
+              height: 800px;
+          }
+
+        .weather_summary {
+            width: 40%;
+            left: 30%;
+            top: 45%;
+            font-size: 20px;
+
+    
+            .weather_text{
+                grid-gap: 3%;
+                margin:2%;
+
+                p{
+                    padding: 1%;
+                    font-size: 18px;
+                }
+
+                a.button {
+                    width:40%;
+   
+                }
+            
+            }
+        }
+
+}
+

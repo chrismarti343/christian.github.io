@@ -1,5 +1,5 @@
 {
-    "prophets": [
+    "temples": [
       {
         "name": "Temple of Asunción,",
         "lastname": "Paraguay",
@@ -13,13 +13,6 @@
         "birthdate": "01 June 1901",
         "birthplace": "Georgia",
         "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fatlanta.jpg?v=1586474857662"
-      },
-      {
-        "name": "Temple of Apia,",
-        "lastname": "Samoa",
-        "birthdate": "01 November 1970",
-        "birthplace": "Samoa",
-        "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fsamoa.jpg?v=1586475777861"
       },
       {
         "name": "Temple of Arequipa",

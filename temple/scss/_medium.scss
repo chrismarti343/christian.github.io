@@ -1,0 +1,150 @@
+
+
+header{
+    background-color: $maincolor;
+    height: 180px;
+
+    .wrapper {
+        margin-left: 3%;
+        margin-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        
+        .box1 {
+
+            .logo {
+                width: 50%;
+                /*font-family: 'Pangolin', cursive;*/
+                img{
+                    width: 70%;
+                }//LOGO IMAGE
+            }//LOGO
+        }//BOX1
+
+
+
+        .box2 {
+            grid-column: 2 / 4;
+            grid-row: 1;  
+            padding: 0;
+            margin: 0;
+            margin-top: 2%;
+            text-align: center;
+
+            h1{  
+                color: white;
+                text-shadow: 2px 2px black;
+                font-size: 25px;
+                padding: 0;
+                margin: 2%;
+                
+                
+            }
+
+            p{  
+                color: #025492;
+                font-size: 18px;
+                padding-top: 2%;
+                margin: 0;
+                font-family: 'Potta One', cursive;
+                text-shadow: 1px 0px #3099e9;
+               
+            }
+
+            hr{
+                color : white;
+            }
+            
+        }//BOX2
+
+
+    }
+}//HEADER
+
+
+/* CSS OF MENU */ 
+
+nav {
+    max-width: 100%;
+    font-size: 15px;
+    
+ 
+   #navigation {
+    grid-template-columns: repeat(4, auto);
+    padding-top:1%;
+    
+    
+   
+    li:first-child{
+        display: none;
+    }
+
+    li{
+        display: block;
+
+        a{
+            color:rgb(46, 28, 148);
+        }
+       
+        
+        a:hover {
+            color: white;
+            background-color: #DEB718;
+        
+        }
+    
+    
+        a.active{
+            color:#3099e9;
+            border-bottom: 8px solid #3099e9;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-radius: 10px;
+        }
+       
+    }//li
+
+   
+
+    }//#navigation
+}//NAV
+
+
+.features{
+   
+
+        .weather_summary {
+
+            width:50%;
+            left: 25%;
+            top: 35%;
+        
+
+
+            .weather_text{
+              
+
+                p{
+                    padding: 1%;
+                    font-size: 15px;
+                }
+
+                a.button {
+                    
+                    margin: 0 auto;
+                    width: 50%;
+                    margin-top:3%;
+                    background-color: $secondcolor;
+                    border: none;
+                    padding: 4%;
+                    border-radius: 15px;
+                    
+                    
+                    
+                    
+                }
+            
+            }
+        }
+}
