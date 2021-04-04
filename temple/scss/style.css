@@ -677,6 +677,9 @@ footer .socialIcons {
   nav #navigation li a.active {
     border-radius: 15px;
   }
+  main .features {
+    overflow: hidden;
+  }
   main .features #hero_ph {
     height: 700px;
   }
