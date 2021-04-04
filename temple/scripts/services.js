@@ -13,9 +13,10 @@ fetch('scripts/temples.json')
     temple.forEach(
         temple => {
             let article = document.createElement('article');
+            article.setAttribute('class',`${temple.name}`)
 
             let h1 = document.createElement('h1');
-            h1.textContent = `${temple.name} ${temple.lastname}`;
+            h1.textContent = `${temple.name} ${temple.country}`;
 
             let dateOfBirth = document.createElement('p');
             dateOfBirth.textContent = `Date of dedication: ${temple.birthdate}`;
@@ -25,7 +26,7 @@ fetch('scripts/temples.json')
 
             let image = document.createElement('img');
             image.setAttribute('src', temple.imageurl);
-            image.setAttribute('alt', `${temple.name} ${temple.lastname}`);
+            image.setAttribute('alt', `${temple.name} ${temple.country}`);
 
 
             article.appendChild(h1);
@@ -33,7 +34,9 @@ fetch('scripts/temples.json')
             article.appendChild(dateOfBirth);
             article.appendChild(placeOfBirth);
 
-            document.querySelector('#temples').appendChild(article);
+            document.querySelector('#temples,#temples-home').appendChild(article);
+           
+            
         }
     );
 

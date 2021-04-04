@@ -70,7 +70,8 @@ nav {
     
  
    #navigation {
-    grid-template-columns: repeat(4, auto);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     padding-top:1%;
     
     
@@ -110,41 +111,176 @@ nav {
     }//#navigation
 }//NAV
 
+main {
+    .features{
 
-.features{
-   
+        #hero_ph { 
+            height: 450px; 
+            }
+    
 
-        .weather_summary {
+            .weather_summary {
 
-            width:50%;
-            left: 25%;
-            top: 35%;
+                width:50%;
+                left: 25%;
+                top: 35%;
+                font-size: 20px;
+    
+                .weather_text{
+
+                    p{
+                        padding: 1%;
+                    
+                    }
+
+                    a.button {
+                        
+                        width: 80%;
+                        font-size: 18px;
+                
+                    }
+                
+                }
+            }
+    }
+
+    #content{
+        h2.title{
+            font-size: 18px;
+        }
+
         
+        p{
+        
+            font-size: 15px; 
+            
+        }
 
+    }
 
-            .weather_text{
-              
+    #amenities{
+        h2.title{
+           
+            font-size: 18px; 
+           
+        }
+    }
+
+    hr.divider2{
+        margin-top: 15%;  
+    }
+
+    #temples-slider{
+        
+        h2.title{
+            font-size: 18px; 
+            margin-bottom: 3%;
+           
+        }
+        a.button {
+            font-size: 20px;
+            margin: 0 auto;
+            margin-top: 2%;
+            width:50%;
+        }
+
+        img{
+            margin-left: 10%;
+            width:80%;
+        }
+    }
+
+    .reservation{
+
+        h2{
+            margin: 3%;
+        }
+        form{
+            .form-box{
+                
+                padding:2%;
 
                 p{
-                    padding: 1%;
-                    font-size: 15px;
+                    margin: 2%;
+                    margin-left: 3%;
                 }
-
-                a.button {
-                    
-                    margin: 0 auto;
-                    width: 50%;
-                    margin-top:3%;
-                    background-color: $secondcolor;
-                    border: none;
-                    padding: 4%;
-                    border-radius: 15px;
-                    
-                    
-                    
-                    
-                }
-            
+                
             }
+            div{
+                margin: 3%;
+            }
+          
         }
+    }
+
+    #temples{
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        margin: 0 auto;
+        width: 90%;
+
+        article.weather{
+            display:grid;
+            text-align: center;
+            padding: 5%;
+            padding-bottom: 5%;
+            padding-top: 15%;
+            margin-bottom: 4%;
+
+            span#weather-title{
+                font-weight: bold;
+                color: $maincolor
+            }
+           
+        }
+    }
+
+    #temples-home{
+        display:grid;
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+        width: 90%;
+
+        article{
+
+            h1{
+                color: yellow;
+            }
+            
+        }
+        article.weather{
+
+            span#weather-title{
+                font-weight: bold;
+                color: $maincolor
+            }
+           
+        }
+    }
+
+
+}
+
+
+footer{
+    margin-top: 5%;
+    background-color: $maincolor;
+    color: white;
+    padding: 2%;
+    text-align: center;
+
+    h3{
+        font-size: 15px;
+        margin-bottom: 2%;
+    }
+    p{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .socialIcons{
+        margin-top:2%;
+        margin-left: 0%;
+    }
 }

@@ -2,28 +2,28 @@
     "temples": [
       {
         "name": "Temple of Asunción,",
-        "lastname": "Paraguay",
+        "country": "Paraguay",
         "birthdate": "23 December 1995",
         "birthplace": "Asuncion",
         "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fparaguay.jpg?v=1586475152825"
       },
       {
-        "name": "Temple of Atlanta,         ",
-        "lastname": "Georgia",
+        "name": "Temple of Atlanta,",
+        "country": "Georgia",
         "birthdate": "01 June 1901",
         "birthplace": "Georgia",
         "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fatlanta.jpg?v=1586474857662"
       },
       {
-        "name": "Temple of Arequipa",
-        "lastname": "Peru",
+        "name": "Temple of Arequipa,",
+        "country": "Peru",
         "birthdate": "01 March 1977", 
         "birthplace": "Peru", 
         "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fperu.jpg?v=1586476817104"
       },
       {
         "name": "Temple of Guayaquil,",
-        "lastname": "Ecuador",
+        "country": "Ecuador",
         "birthdate": "03 April 1997",
         "birthplace": "Guayaquil",
         "imageurl": "https://cdn.glitch.com/e0a97fc2-e92e-48b4-8e7d-2fc20ed04a15%2Fguayaquil.jpg?v=1586477547471"

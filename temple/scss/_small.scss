@@ -161,24 +161,18 @@ main {
         100% { left: -400%; }
         }
         
-        #hero_ph { overflow: hidden; 
-            height: 250px;}
-        #hero_ph figure img { width: 20%; float: left; }
-        #hero_ph figure { 
-          position: relative;
-          width: 500%;
-          margin: 0;
-          left: 0;
-          text-align: left;
-          font-size: 0;
-          animation: 20s slidy; 
-
-          img {
-              width: 20%;
-          }
-
-
-        }
+        #hero_ph { 
+                overflow: hidden; 
+                height: 250px;
+                position: relative;
+                width: 500%;
+                margin: 0;
+                left: 0;
+                text-align: left;
+                font-size: 0;
+                animation: 20s slidy; 
+                }
+        #hero_ph img { width: 20%; float: left; }
 
         .weather_summary {
             position: absolute;
@@ -186,7 +180,7 @@ main {
             left: 15%;
             align-items: center;
             text-align: center;
-            top: 30%;
+            top: 25%;
             background-color: rgba(2, 84, 146, 0.685);
             color: white;
             box-shadow: 5px 5px 15px 1px white;
@@ -212,6 +206,7 @@ main {
 
                 a.button {
                     display: block;
+                    margin: 0 auto;
                     margin: 5%;
                     background-color: $secondcolor;
                     border: none;
@@ -330,10 +325,74 @@ hr.divider2{
         text-align: center;
     }
 
+    a.button {
+        display: block;
+        margin: 5%;
+        background-color: $secondcolor;
+        border: none;
+        padding: 5%;
+        color:#3099e9;
+        border-radius: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        box-shadow: 5px 5px 10px 1px black;
+    }
+
     
 
 }
+
+    .reservation{
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 90%;
+
+        h2{
+            margin: 5%;
+        }
+        form{
+            .form-box{
+                background-color: #3099e9;
+                padding:5%;
+                border-radius: 10px;
+            }
+            div{
+            margin: 3%;
+            }
+            input{
+                width:50%;
+            }
+        }
+    }
+
+    #temples{
+
+        article{
+
+            h1{
+                color: yellow;
+            }
+            
+        }
+        article.weather{
+            display:grid;
+            row-gap: 10%;
+            text-align: center;
+            padding: 5%;
+            padding-bottom: 15%;
+            margin-bottom: 10%;
+
+            span#weather-title{
+                font-weight: bold;
+                color: $maincolor
+            }
+           
+        }
+    }
 }
+
+
 
 footer{
     margin-top: 5%;
