@@ -226,7 +226,7 @@ main .features .weather_summary {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  top: 25%;
+  top: 30%;
   background-color: rgba(2, 84, 146, 0.685);
   color: white;
   -webkit-box-shadow: 5px 5px 15px 1px white;
