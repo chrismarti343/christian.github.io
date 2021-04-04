@@ -11,7 +11,8 @@ body {
     background-position: center; /* Center the image */
     background-repeat: repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */   
-  }
+    margin: 0; 
+}
 
 
 header{
@@ -147,6 +148,7 @@ nav {
 main {
 
 .features{
+    overflow: hidden; 
    
 
     @keyframes slidy {
@@ -160,6 +162,8 @@ main {
         95% { left: -300%; }
         100% { left: -400%; }
         }
+
+        
         
         #hero_ph { 
                 overflow: hidden; 

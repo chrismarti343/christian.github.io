@@ -12,6 +12,7 @@ body {
   /* Do not repeat the image */
   background-size: cover;
   /* Resize the background image to cover the entire container */
+  margin: 0;
 }
 
 header {
@@ -138,6 +139,10 @@ nav #navigation li .active {
 
 nav #navigation .responsive li {
   display: block;
+}
+
+main .features {
+  overflow: hidden;
 }
 
 @-webkit-keyframes slidy {
