@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<title>Reservation</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-with,initial-scale=1.0">
@@ -52,36 +53,36 @@
 
 
         <section class ="reservation">
-            <div class ="header-img-text-wrap">
+            
                
             
                 <p>* are required fields.</p>
-                <form action="thanks.html" method="GET">
+        <form action="thanks.html" method="GET">
 
                 <div class="form-box">
-                <h2>Make your reservation here</h2>
-                <div>
-                    <label for="fullName">Full Name* </label>
-                    <input type="text" id="fullName" name="fullName" required pattern ="[A-Za-z ]{5,}">
-                </div>
-                <div>
-                    <label for="email">Email* </label>
-                    <input type="email" id="email" name="email" placeholder="user@email.com" required>
-                </div>
-                <div>
-                    <label for="phone">Phone </label>
-                    <input type="tel" id="phone" name="phone" >
-                </div>
-                <div>
-                    <label for="homeState">Home State </label>
-                    <input type="text" id="homeState" name="homeState">
-                </div>
-                <div>
-                    <label for="homeCountry">Home Country* </label>
-                    <input type="text" id="homeCountry" name="homeCountry" required>
-                </div>
+                    <h2>Make your reservation here</h2>
+                    <div>
+                        <label for="fullName">Full Name* </label>
+                        <input type="text" id="fullName" name="fullName" required pattern ="[A-Za-z ]{5,}">
+                    </div>
+                    <div>
+                        <label for="email">Email* </label>
+                        <input type="email" id="email" name="email" placeholder="user@email.com" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone </label>
+                        <input type="tel" id="phone" name="phone" >
+                    </div>
+                    <div>
+                        <label for="homeState">Home State </label>
+                        <input type="text" id="homeState" name="homeState">
+                    </div>
+                    <div>
+                        <label for="homeCountry">Home Country* </label>
+                        <input type="text" id="homeCountry" name="homeCountry" required>
+                    </div>
 
-            </div>
+                </div>
 
             <div class="form-box">
 
@@ -100,7 +101,7 @@
                 <div>
                     <label for="location">Location:* </label>
                     <select name="location" id="location" required>
-                        <option selected disabled>Select Hotel Location ...</option>
+                        <option value="" disabled>--Select--</option>
                         <option value="Barranquilla, Colombia">Barranquilla, Colombia</option>                            
                         <option value="Laie, Hawaii">Laie, Hawaii, USA</option>
                         <option value="Logan, Utah">Logan, Utah, USA</option>
@@ -122,7 +123,7 @@
                     <div class = "roomType-container">
                         <label for="roomType">Room Type:* </label>
                         <select required name="roomType" id="roomType">
-                            <option selected disabled>Select Room Type ...</option>
+                            <option value="" disabled>--Select--</option>
                             <option value="Single">Single</option>
                             <option value="Double">Double</option>
                             <option value="Studio">Studio</option>
@@ -134,7 +135,7 @@
                     <div>
                         <label for="guestAdult">Adult Guests in Room:* </label>
                         <select required name="guestAdult" id="guestAdult">
-                            <option value = "" disabled></option>
+                            <option value="" disabled>--Select--</option>
                             <option value = "0">0</option>
                             <option value = "1">1</option>
                             <option value ="2">2</option>
@@ -152,7 +153,7 @@
                     <div>
                         <label for="guestChildren">Chilren Guests in Room:* </label>
                         <select required name="guestChildren" id="guestChildren">
-                            <option value = "" disabled></option>
+                            <option value="" disabled>--Select--</option>
                             <option value = "0">0</option>
                             <option value = "1">1</option>
                             <option value ="2">2</option>
@@ -179,14 +180,18 @@
                 
                 </div>
                 <div>
-                    <label for="comments">Comments/Special Accommodations:</label><br>
+                    <label for="guestChildren">Comments/Special Accommodations:</label><br><br>
                     <textarea rows="5"></textarea>                
                 </div>
+                
                 <div>
                     <input type="submit" value="Submit">
                 </div>
             </div>
+
             </form>
+           
+            
         </section>
 
 </main>
