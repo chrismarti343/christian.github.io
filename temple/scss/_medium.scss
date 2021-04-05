@@ -66,14 +66,16 @@ header{
 
 nav {
     max-width: 100%;
-    font-size: 15px;
-    
+
  
    #navigation {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     padding-top:1%;
     
+    li:hover > #submenu{
+        display: block;
+    }
     
    
     li:first-child{
@@ -83,16 +85,18 @@ nav {
     li{
         display: block;
 
+    
+        #submenu{
+        
+            display:none;
+           
+        }
+
+
         a{
             color:rgb(46, 28, 148);
         }
        
-        
-        a:hover {
-            color: white;
-            background-color: #DEB718;
-        
-        }
     
     
         a.active{
@@ -103,6 +107,8 @@ nav {
             border-right: none;
             border-radius: 10px;
         }
+
+
        
     }//li
 

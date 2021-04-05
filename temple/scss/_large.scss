@@ -186,8 +186,10 @@ main{
             margin: 3%;
         }
         form{
+            margin: 0 auto;
+            width:90%;
             display: grid;
-            grid-template-columns: auto auto ;
+            grid-template-columns: 50% auto ;
             .form-box{
                 
                 
