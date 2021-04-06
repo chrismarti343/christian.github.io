@@ -393,6 +393,214 @@ hr.divider2{
            
         }
     }
+
+    .title-services{
+        
+        h2{
+            text-align: center;
+            padding: 3%;
+        }
+    }
+    .services-page{
+
+        .services-box{
+            margin: 3%;
+            margin-bottom: 5%;
+            width: 90%;
+            padding: 2%;
+            padding-bottom: 3%;
+            box-shadow: 5px 5px 15px black;
+        
+            img{
+            margin: 0 auto;
+            width:80%;
+            margin-left: 10%;
+            border-radius: 15px;
+            }
+            .text{
+                h3{
+                    text-align: center;
+                    padding: 2%;
+                    color:$maincolor;
+                }
+                p{
+                    padding:5%;
+                }
+            }
+
+        }
+
+       
+    }
+
+    a.button {
+        display: block;
+        margin: 5%;
+        background-color: $secondcolor;
+        border: none;
+        padding: 2%;
+        color:#3099e9;
+        border-radius: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        box-shadow: 5px 5px 10px 1px black;
+        
+    }
+    
+    .title-missionary{
+        
+        h2{
+            text-align: center;
+            padding: 3%;
+        }
+    }
+    .missionary-page{
+
+        .missionary-box{
+            margin: 3%;
+            margin-bottom: 5%;
+            width: 90%;
+            padding: 2%;
+            padding-bottom: 3%;
+            box-shadow: 5px 5px 15px black;
+        
+            img{
+            margin: 0 auto;
+            width:80%;
+            margin-left: 10%;
+            border-radius: 15px;
+            }
+            .text{
+                text-align: center;
+
+                hr{
+                    margin: 0 auto;
+                    width: 50%;
+                    color: $secondcolor;
+                }
+                h3{
+                    text-align: center;
+                    padding: 2%;
+                    color:$maincolor;
+                }
+
+                h4{
+                    color:#3099e9;
+                    padding: 5%;
+                }
+
+                ul{
+                    padding-bottom: 5%;
+                }
+                p{
+                    padding:5%;
+                }
+
+                a.button{
+                    margin: 0 auto;
+                    margin-top: 2%;
+                    margin-bottom: 5%;
+                    width:50%;
+                }
+            }
+
+        }
+
+       
+    }
+
+
+    /* TOWNS*/   
+    .cards {
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+        article{
+            margin: 0 auto;
+            margin-bottom: 2%;
+            width: 80%;
+            padding-top: 3%;
+            text-align: center;
+            border: solid 3px #093b61;
+            border-radius: 10px;
+            background-color: #3099e926;
+
+            img{
+                width: 75%;
+                border-radius: 10px;
+                margin-bottom: 4%;
+                box-shadow: 0px 0px  20px rgb(97, 94, 94);
+                margin-top: 5%;
+            }
+            
+            
+            .data{
+                p{
+                    color: #062c49;
+                    font-size: 17px;
+                    padding:5%;
+                
+                }
+                h3{
+                    font-size: 10px;
+                    padding-top: 0%;
+                    margin-top: 0%;
+                    padding-bottom: 5%;
+              
+                }
+                h2{
+                    font-size: 18px;
+                    padding-bottom: 7%;
+                    margin-bottom: 0%;
+                    text-shadow: 1px 1px #3099e9;
+                   
+                }
+
+            }
+            
+            
+        }
+    }
+
+    .contact-title{
+        padding: 5%;
+        text-align: center;
+        color : $maincolor;
+    }
+    .information{
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom:5%;
+
+        
+        iframe{
+            margin: 0 auto;
+            margin-left: 5%;
+            width: 90%; 
+        }
+
+        #inf_tel{
+            margin:0 auto;
+            width: 70%;
+            padding:4%;
+        }
+    }
+
+    .inf_icon{
+        margin: 0 auto;
+        width: 90%;
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 5%;
+        img{
+            width: 80px;
+            height: 50px;
+        }
+       
+    }
+        
+   
 }
 
 
