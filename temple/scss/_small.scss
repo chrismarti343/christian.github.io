@@ -578,12 +578,18 @@ hr.divider2{
             margin: 0 auto;
             margin-left: 5%;
             width: 90%; 
+            height: 200px;
         }
 
         #inf_tel{
             margin:0 auto;
             width: 70%;
             padding:4%;
+            i{
+                margin: 0 auto;
+
+                padding:2%;
+            }
         }
     }
 
@@ -619,6 +625,10 @@ footer{
         
         text-align: center;
         font-size: 12px;
+    }
+    a{
+        text-decoration: none;
+        color: $secondcolor;
     }
 
     .socialIcons{

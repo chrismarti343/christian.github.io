@@ -592,12 +592,18 @@ main .information iframe {
   margin: 0 auto;
   margin-left: 5%;
   width: 90%;
+  height: 200px;
 }
 
 main .information #inf_tel {
   margin: 0 auto;
   width: 70%;
   padding: 4%;
+}
+
+main .information #inf_tel i {
+  margin: 0 auto;
+  padding: 2%;
 }
 
 main .inf_icon {
@@ -630,6 +636,11 @@ footer h3 {
 footer p {
   text-align: center;
   font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #A38A41;
 }
 
 footer .socialIcons {
@@ -894,6 +905,18 @@ footer .socialIcons {
     -webkit-text-decoration: underline #093b61;
             text-decoration: underline #093b61;
   }
+  main .information iframe {
+    height: 400px;
+  }
+  main .information #inf_tel i {
+    padding: 2%;
+    font-size: 18px;
+  }
+  main .inf_icon {
+    margin: 0 auto;
+    width: 50%;
+    padding: 2%;
+  }
   footer {
     margin-top: 5%;
     background-color: #022030;
@@ -1157,6 +1180,34 @@ footer .socialIcons {
     font-size: 30px;
     -webkit-text-decoration: underline #093b61;
             text-decoration: underline #093b61;
+  }
+  main .contact-title {
+    font-size: 25px;
+  }
+  main .information {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 5%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  main .information iframe {
+    margin: 0 auto;
+    margin-left: 10%;
+    width: 90%;
+    height: 400px;
+  }
+  main .information #inf_tel {
+    margin: 0 auto;
+    width: 70%;
+    padding: 4%;
+    padding-top: 10%;
+  }
+  main .inf_icon {
+    width: 40%;
+    padding: 2%;
   }
   footer {
     margin-top: 3%;

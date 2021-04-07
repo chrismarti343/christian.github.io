@@ -360,6 +360,39 @@ main{
             }
     
         }
+
+    .contact-title{
+        font-size: 25px;
+    }
+    .information{
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom:5%;
+        display:grid;
+        grid-template-columns: auto auto;
+
+        
+        iframe{
+            margin: 0 auto;
+            margin-left: 10%;
+            width: 90%; 
+            height:400px;
+        }
+
+        #inf_tel{
+            margin:0 auto;
+            width: 70%;
+            padding:4%;
+            padding-top: 10%;
+           
+        }
+    }
+
+    .inf_icon{
+        width: 40%;
+        padding: 2%;
+      
+    }
 }
 
     
